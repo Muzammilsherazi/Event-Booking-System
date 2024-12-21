@@ -1,0 +1,23 @@
+.eventsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center ;
+}
+
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  h1{
+    color: cyan;
+    /* margin: auto; */
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    text-decoration: underline;
+    font-size: 2.3em;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+  }
+}

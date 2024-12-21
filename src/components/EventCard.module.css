@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 244, 244);
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.384);
+    .top {
+        padding: 0px 20px;
+        p {
+            font-size: 1.1em;
+            font-family: "Karla";
+        }
+        h2 {
+            font-family: "Poppins";
+            font-size: 1.3em;
+            color: rgb(51, 51, 51);
+        }
+    }
+
+    .mid {
+        border-top: 1px solid rgb(160, 160, 160);
+        border-bottom: 1px solid rgb(160, 160, 160);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        p{
+            font-weight: 600;
+            font-size: .9em;
+            font-family: "Karla";
+        }
+        .bookSeatBtn{
+            background-color: cyan;
+            padding: 10px 5px;
+            font-size: .8em;
+            cursor: pointer;
+            font-family: "Poppins";
+            font-weight: 600;
+            width: 100px;
+            border: none;
+            border-radius: 5px;
+            color: black;
+            transition: .3s;
+            &:hover{
+                background-color: rgba(12, 241, 241, 0.521);
+                scale: .9;
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        /* background-color: rgba(0, 255, 255, 0.658); */
+
+        p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            font-family: "Karla";
+            color: rgb(56, 56, 56);
+        }
+        span{
+            font-family: "Poppins";
+        }
+    }
+}
+
+#bookedBtn{
+    background-color: rgba(108, 109, 109, 0.521);
+}
