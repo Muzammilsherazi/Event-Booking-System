@@ -20,4 +20,9 @@
     text-align: center;
     background-color: rgb(31, 30, 30);
   }
+  h2{
+    margin: auto auto;
+    font-size: 1.8em;
+    font-family: "Poppins";
+  }
 }
