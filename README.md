@@ -81,8 +81,10 @@ Follow these steps to set up and run the project locally:
 ```bash
 git clone https://github.com/yourusername/event-booking-system.git
 cd event-booking-system
+```
 
 Then open your code in vsCode. In terminal run this command,make sure you have install Nodejs
 ```bash
 npm install
 npm run dev
+```
